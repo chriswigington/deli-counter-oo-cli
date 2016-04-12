@@ -1,0 +1,6 @@
+#!/usr/bin/env ruby
+require 'pry'
+require_relative '../lib/deli_counter.rb'
+
+katz_deli = DeliCounter.new
+katz_deli.run
